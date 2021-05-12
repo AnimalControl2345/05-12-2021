@@ -1,0 +1,641 @@
+body {
+  /*background-color: #FFFF6E;*/
+  background-image: url(../imgs/back_pattern_add-yellow.PNG);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+    color: #340078;
+    font-style: italic;
+    text-shadow: none;
+}
+
+.tab {
+  margin-left: 2em;
+}
+
+.half-tab {
+    margin-left: 1em;
+}
+
+.right-force {
+  margin-left: 50px;
+}
+
+.left-force {
+  margin-left: 80px;
+}
+
+.left-force-small {
+  margin-left: 30px;
+}
+
+.center-force {
+  margin-left: 260px;
+}
+
+.center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.stf {
+  font-size: 20px;
+}
+
+#team-pic article p.end {
+  margin-bottom: 5em;
+}
+
+.lh-1_5em {
+  line-height: 1.5em;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.video {
+  width: 800px;
+  height: 500px;
+}
+
+.small-h{
+  width: 341px;
+  height: 251px;
+}
+
+.small-v{
+  width: 251px;
+  height: 341px;
+}
+
+.mini {
+  width: 28px;
+  height: 28px;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fu {
+  margin-top: -74px;
+}
+
+.oa {
+    overflow: auto;
+}
+
+.sixteen-pt {
+    font-size: 16px;
+}
+
+main {
+  /**Color Settings*/
+    background-color: #FFFF6E;
+    color: #14002E;
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 800px;
+    height: auto;
+  /**Margin, Padding, Border*/
+    margin: 0 auto;
+    margin-top: 175px;
+    padding: 0em 1em;
+    padding-bottom: 50px;
+  /**positioning*/
+
+}
+
+header {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    border: solid 2px;
+    border-width: 1px 2px 2px 2px;
+    margin: 0px;
+  /**positioning*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+
+}
+
+footer {
+  /**Color Settings*/
+    background-color: #340078;
+    color: white;
+  /**Font Settings*/
+    font-size: 14px;
+  /**Dimensional Settings*/
+    width: auto;
+    height: 400px;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 1em;
+  /**positioning*/
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+h2 {
+  text-shadow: 1px 1px 2px #080808;
+}
+
+h3 {
+    color: #D4AF37;
+    text-shadow: 1px 1px 1px black;
+}
+
+figure {
+  margin-left: 40px;
+  padding: 0px;
+  overflow: auto;
+  float: left;
+}
+
+figure img {
+    border: white inset 10px;
+}
+
+figure figcaption {
+  margin-top: 5px;
+  padding-top: 1em;
+  padding-left: 5px;
+  border: black solid 1px;
+  height: 2em;
+  background-image: url(../imgs/black_twill_add-gold.PNG);
+}
+
+.short {
+    width: 266px;
+}
+
+.long {
+    width: 356px;
+}
+
+.tall{
+  height: 3.5em;
+}
+
+.line {
+  float: left;
+  clear: right;
+}
+
+.page-title {
+  /**Color Settings*/
+    color: #340078;
+  /**Font Settings*/
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #FFFF6E;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin:5px;
+  /**positioning*/
+}
+
+.horizontal-nav-bar {
+  /**Color Settings*/
+    background-color: #FFFF6E;
+    color: #340078;
+  /**Font Settings*/
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #D4AF37;
+  /**Dimensional Settings*/
+    width: 25%;
+    height: 3%;
+  /**Margin, Padding, Border*/
+    padding: 5px;
+    margin: 7%;
+  /**positioning*/
+}
+
+.top-space {
+    margin: 0px;
+    padding: 0.5em 0.5em 0.5em 0px;
+}
+
+.team-pic {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 436px;
+    height: inherit;
+  /**Margin, Padding, Border*/
+    margin: 5px;
+    margin-right: 15px;
+    margin-left: 0px;
+    border: white inset 10px;
+  /**positioning*/
+    position: relative;
+    float: left;
+    overflow: auto;
+}
+
+.galleries h2 {
+  margin-left: 2.3em;
+  margin-top: 2em;
+}
+
+.row-name {
+  /**Color Settings*/
+  /**Font Settings*/
+    font-style: italic;
+    font-weight: bold;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+  /**positioning*/
+}
+
+.footer {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    height: 8em;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    margin-top: 1em;
+    padding: 0px;
+  /**positioning*/
+}
+
+.footer-heading {
+  /**Color Settings*/
+    color: inherit;
+  /**Font Settings*/
+    text-decoration: underline;
+    font-size: 16px;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0em;
+  /**positioning*/
+}
+
+.footer-div {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 33.3%;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0px;
+  /**positioning*/
+    position: relative;
+}
+
+.footer-list {
+  /**Color Settings*/
+  /**Font Settings*/
+    list-style: none;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 1em;
+    padding-left: 0px;
+  /**positioning*/
+}
+
+.footer-list li {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 10px 0px;
+  /**positioning*/
+}
+
+.footer-list a {
+  /**Color Settings*/
+    color: #D4AF37;
+  /**Font Settings*/
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0.25em;
+    border: solid black;
+    border-width: 1px 1px 2px 2px;
+  /**positioning*/
+}
+
+.contact-header{
+  text-decoration: underline;
+  font-weight: bold;
+  color: #D4AF37;
+  font-size: 18px;
+}
+
+#khsLink {
+  /**Color Settings*/
+  /**Font Settings*/
+    font-size: 14px;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+  /**positioning*/
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+#animal_control_logo {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    border: solid black 1px;
+    border-width: 2px 2px 1px 1px;
+  /**positioning*/
+    position: fixed;
+    left: 18em;
+    top: 20px;
+}
+
+#header-main {
+  /**Color Settings*/
+    background-color: #D4AF37;
+    /*background-image: url(../imgs/2019_team_pic.jpg);
+    background-position: 200px 0px;*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    height: 12%;
+  /**Margin, Padding, Border*/
+    margin: 0;
+    padding: 1em 1em 38px;
+    /**positioning*/
+}
+
+#youtube {
+  position: absolute;
+  top: 50px;
+  right: 125px;
+}
+
+#facebook {
+  position: absolute;
+  top: 50px;
+  right: 85px;
+}
+
+#twitter {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+}
+
+#horizontal-nav-bar {
+  /**Color Settings*/
+    background-color: #340078;
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    height: 11%;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 5px;
+    border: black solid 2px;
+    border-right: 0px;
+  /**positioning*/
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    right: 0px;
+}
+
+#about-link {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 2.8em;
+    height: 1em;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+  /**positioning*/
+    position: absolute;
+    top: 0.5px;
+    left: 12%;
+}
+
+#contact-link {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 3.4em;
+    height: 1em;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+  /**positioning*/
+    position: absolute;
+    top: 0.5px;
+    left: 35%;
+}
+
+#galleries-link {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 3.9em;
+    height: 1em;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+  /**positioning*/
+    position: absolute;
+    top: 0.5px;
+    right: 33%;
+}
+
+#faq-link {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 2.4em;
+    height: 1em;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+  /**positioning*/
+    position: absolute;
+    top: 0.5px;
+    right: 12%
+}
+
+#team-pic article p {
+  width: 300px;
+  height: 3em;
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  overflow: auto;
+}
+
+#important-dates-list {
+  font-size: 25px;
+}
+
+#important-dates-list li {
+  padding-bottom: 10px;
+}
+
+#map-to-robotics-room {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+  /**positioning*/
+  float: left;
+}
+
+#who-we-are {
+    margin: 2em;
+}
+
+/*
+#meeting-information p {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+  /**positioning*/
+/*    float: left;
+    position: relative;
+    clear: right;
+}
+*/
+
+#faq-section p.question {
+    font-size: 24px;
+    color: #340078;
+    font-weight: bold;
+}
+
+#faq-section p.answer {
+    font-style: italic;
+}
+
+#important-links {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 33%;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0px;
+  /**positioning*/
+    float: left;
+    overflow: auto;
+}
+
+#first-links {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 33%;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0px;
+  /**positioning*/
+    float: left;
+    overflow: auto;
+}
+
+#contact {
+  /**Color Settings*/
+  /**Font Settings*/
+  /**Dimensional Settings*/
+    width: 33%;
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 0px;
+  /**positioning*/
+    float: left;
+    overflow: auto;
+}
+
+#contact-info {
+  /**Color Settings*/
+  /**Font Settings*/
+    font-size: 16px;
+    text-shadow: 0.75px 0.75px 2px black;
+  /**Dimensional Settings*/
+    width: auto;
+  /**Margin, Padding, Border*/
+    margin: 1em 0px;
+    padding: 0px;
+    padding-left: 10px;
+    border: solid black;
+    border-width: 2px 2px 1px 1px;
+  /**positioning*/
+}
+
+#copyright-line {
+  /**Color Settings*/
+  /**Font Settings*/
+    font-style: italic;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    margin-top: 1em;
+    padding: 1em;
+    padding-bottom: 0px;
+  /**positioning*/
+    float: left;
+    clear: left;
+    overflow: auto;
+}
+
+#trademark-line {
+  /**Color Settings*/
+    color: white;
+  /**Font Settings*/
+    font-style: italic;
+    font-weight: 200;
+  /**Dimensional Settings*/
+  /**Margin, Padding, Border*/
+    margin: 0px;
+    padding: 1em;
+  /**positioning*/
+    float: left;
+    clear: left;
+    overflow: auto;
+}
+
+/**Color Settings*/
+/**Font Settings*/
+/**Dimensional Settings*/
+/**Margin, Padding, Border*/
+/**positioning*/
